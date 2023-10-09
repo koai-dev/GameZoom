@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Game Zoom</string>
+    <string name="version_1_0">version 1.0</string>
+    <string name="to_use_this_feature_you_need_to_login">To use this feature, you need to login</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="no_data_found">No data found!</string>
+    <string name="update_now">Update Now</string>
+    <string name="maybe_you_need_to_update_gamezoom_for_get_new_game_nthank_you">Maybe you need to update GameZoom for get new game.\nThank you.</string>
+    <string name="detail_gameplay">Detail GamepLay</string>
+    <string name="buy_now">Buy It</string>
+    <string name="description">Description:</string>
+    <string name="play_without_buy_now">Play Without Buy Now</string>
+    <string name="owned">Owned</string>
+</resources>

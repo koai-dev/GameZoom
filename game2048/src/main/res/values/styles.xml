@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.ButtonBar">
+        <item name="background">@drawable/round_corner_background</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Project exclude paths
+/free_draw_puzzle/build/
+/free_draw_puzzle/build/intermediates/javac/debug/classes/
+/jumb_boy/build/
+/jumb_boy/build/intermediates/javac/debug/classes/
+/puzzle15app/build/
+/puzzle15app/build/intermediates/javac/debug/classes/

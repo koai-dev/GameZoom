@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg_rank"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/puzzle_15"
+        android:textAlignment="center"
+        android:textColor="@color/gameBackground"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_three_x_three"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:backgroundTint="#2E7D32"
+        android:text="@string/threeXthree" />
+
+    <Button
+        android:id="@+id/button_four_x_four"
+        android:layout_width="200dp"
+        android:backgroundTint="#F9A825"
+        android:paddingVertical="16dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fourXfour" />
+
+    <Button
+        android:id="@+id/button_five_x_five"
+        android:layout_width="200dp"
+        android:backgroundTint="#C62828"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:text="@string/fiveXfive" />
+
+</LinearLayout>

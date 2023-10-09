@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "983559241115",
+    "project_id": "centre-game",
+    "storage_bucket": "centre-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983559241115:android:2ba1504ba513dcb128353e",
+        "android_client_info": {
+          "package_name": "com.koai.gamezoom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983559241115-5lhmlf5v2lt9hfton0cfg9d5ncpj38dh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koai.gamezoom",
+            "certificate_hash": "4d5c6040cf6d26e2d5b836ae984fe942b507f088"
+          }
+        },
+        {
+          "client_id": "983559241115-rv6kor7cfvs5upvgjq2tjq0q16je89bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_av1c_DfAj1nuPJtqGe-aUd-WTyKXja8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983559241115-gu91uba6tv98o1h14845bdlnfkcp2sao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

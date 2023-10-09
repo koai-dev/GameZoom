@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+apply plugin:  "org.jetbrains.kotlin.android"
+
+
+android {
+    compileSdk 34
+    defaultConfig {
+        minSdkVersion 21
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'com.game2048koai.a2048'
+    lint {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'  // also Adad core dependency
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.core:core-ktx:1.12.0'
+
+
+
+}

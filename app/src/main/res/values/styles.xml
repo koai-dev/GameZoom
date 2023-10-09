@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:radius">16dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="RoundShapeImageView6dp">
+        <item name="cornerRadius">6dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6dp</item>
+    </style>
+
+    <style name="CircleShapeImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundShapeImageView12dp">
+        <item name="cornerRadius">12dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/enter_from_top</item>
+        <item name="android:windowExitAnimation">@anim/exit_to_bottom</item>
+    </style>
+</resources>
